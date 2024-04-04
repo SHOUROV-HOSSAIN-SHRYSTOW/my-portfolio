@@ -1,0 +1,185 @@
+body{
+    font-family: "Chivo Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+}
+.header{
+    background-color: rgb(189, 133, 179);
+    background-image: url('images/header_bg.png'),url(images/developer.png);
+    background-repeat: no-repeat;
+    background-position: bottom right,top left;
+}
+.color{
+    color: orangered;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+nav h1{
+    margin-left:150px;
+}
+nav>ul{
+    display: flex;
+    align-items: center;
+}
+nav li{
+    list-style: none;
+    margin-right: 50px;
+}
+nav a{
+    text-decoration: none;
+}
+.kss{
+    background-color: orangered;
+    border-radius: 5px;
+    border: 0;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 15px 35px;
+}
+.banner{
+    padding: 30px 30px 0px 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.banner-content{
+    max-width: 500px;    
+}
+
+.btn-primary{
+    background-color: orangered;
+    border-radius: 5px;
+    border: 0;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 15px 35px;
+}
+.btn-primary:hover{
+    background-color: rgb(224, 223, 226);
+    transition: 1s;
+}
+.banner .banner-img{
+    width: 500px;
+}
+.banner-greeting{
+    font-size: 50px;
+    color: brown;
+    margin-bottom: 0;
+}
+.banner-title{
+    font-size: 50px;
+    font-weight: 500px;
+}
+.about{
+    background-color: #fff6ec;
+    margin: 80px 200px;
+    padding: 130px;
+}
+.section-title{
+    color: #261e4d;
+    text-align: center;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+
+}
+.skill-1{
+    display: flex;
+    justify-content: space-between;
+}
+.digain{
+    color: #757575;
+}
+.digain-1{
+    color: #252424;
+}
+.section-description{
+    color: #757575;
+    text-align: center;
+    font-size: 18px;
+    max-width: 1200px;
+}
+.skill-section{
+    background-color: rgb(255, 247, 236);
+    max-width: 1000px;
+    margin: auto;
+}
+.skill-container{
+    display: flex;
+}
+.skill{
+    padding: 30px;
+    gap: 24px;
+}
+.resume{
+    max-width: 1000px;
+    margin: auto;
+}
+.resume-containa{
+    display: flex;
+    gap: 50px;
+}
+.resume-culume-institute{
+    color: #25241d;
+}
+.resume-culume-title{
+    color: #6d0d0d;
+}
+.resume-culume-university{
+    color: #757575;
+}
+.resume-culume-1{
+    color: #757575;
+}
+.download-cv{
+    text-align: center;
+    margin-top: 50px;
+}
+.section{
+    background-color: antiquewhite;
+    margin: 10px 100px;
+}
+.section-Let’s{
+    max-width: 1000px;
+    margin: auto;
+}
+.section-culumn{
+    display: flex;
+    margin-top: 35px;
+}
+.saction-institute{
+
+}
+.Message-input-box .input-box{
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+    border-radius: 10px;
+}
+footer{
+    display: flex;
+    background: #fff8f3;
+    margin-top: 100px;
+    padding: 130px 200px;
+}
+.contact input,[type="taxt"], .contact input,[type="email"], textarea{
+    display: block;
+    margin-bottom: 25px;
+    padding: 18px 35px;
+    color: #757575;
+    border-radius: 5px;
+    background: #FFF;
+    border: 0;
+    width: 100%;
+}
+.footer-column{
+    width: 45%;
+    margin-right: 20px;
+}
+.social-link{
+    margin-right: 25px;
+}
